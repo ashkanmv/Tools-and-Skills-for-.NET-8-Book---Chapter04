@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="System.Console" Static="true" />
+		<Using Include="System.Convert" Static="true" />
+		<Using Include="System.Text.Encoding" Static="true"/>
+	</ItemGroup>
+
+</Project>
